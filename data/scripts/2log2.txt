@@ -1,0 +1,443 @@
+data ciao
+data lastfm
+data gowalla
+data epinions
+data douban
+data reddit
+data ciao
+split 1
+#sessions in train/test: 352/87
+#users in train/test: 241/56
+#items in train/test: 213/108
+#interactions in train/test: 907/221
+split 2
+#sessions in train/test: 352/87
+#users in train/test: 241/59
+#items in train/test: 213/96
+#interactions in train/test: 911/217
+split 3
+#sessions in train/test: 352/87
+#users in train/test: 241/62
+#items in train/test: 213/109
+#interactions in train/test: 908/220
+split 4
+#sessions in train/test: 352/87
+#users in train/test: 241/60
+#items in train/test: 213/108
+#interactions in train/test: 903/225
+split 5
+#sessions in train/test: 352/87
+#users in train/test: 241/58
+#items in train/test: 213/105
+#interactions in train/test: 889/239
+data lastfm
+split 1
+#sessions in train/test: 4743/1185
+#users in train/test: 1101/517
+#items in train/test: 711/617
+#interactions in train/test: 31183/7184
+split 2
+#sessions in train/test: 4743/1185
+#users in train/test: 1101/522
+#items in train/test: 711/632
+#interactions in train/test: 30949/7418
+split 3
+#sessions in train/test: 4743/1185
+#users in train/test: 1101/503
+#items in train/test: 711/608
+#interactions in train/test: 31038/7329
+split 4
+#sessions in train/test: 4743/1185
+#users in train/test: 1101/532
+#items in train/test: 711/621
+#interactions in train/test: 31096/7271
+split 5
+#sessions in train/test: 4743/1185
+#users in train/test: 1101/506
+#items in train/test: 711/620
+#interactions in train/test: 31089/7278
+data gowalla
+split 1
+#sessions in train/test: 473763/118440
+#users in train/test: 58686/29955
+#items in train/test: 125688/90392
+#interactions in train/test: 1459647/339708
+split 2
+#sessions in train/test: 473763/118440
+#users in train/test: 58686/29902
+#items in train/test: 125688/90493
+#interactions in train/test: 1458859/340496
+split 3
+#sessions in train/test: 473763/118440
+#users in train/test: 58686/29931
+#items in train/test: 125688/90296
+#interactions in train/test: 1459960/339395
+split 4
+#sessions in train/test: 473763/118440
+#users in train/test: 58686/29921
+#items in train/test: 125688/90669
+#interactions in train/test: 1459011/340344
+split 5
+#sessions in train/test: 473763/118440
+#users in train/test: 58686/30055
+#items in train/test: 125688/90612
+#interactions in train/test: 1459853/339502
+data epinions
+split 1
+#sessions in train/test: 30011/7502
+#users in train/test: 11934/4239
+#items in train/test: 9237/5761
+#interactions in train/test: 82047/19575
+split 2
+#sessions in train/test: 30011/7502
+#users in train/test: 11934/4280
+#items in train/test: 9237/5797
+#interactions in train/test: 82031/19591
+split 3
+#sessions in train/test: 30011/7502
+#users in train/test: 11934/4248
+#items in train/test: 9237/5658
+#interactions in train/test: 82108/19514
+split 4
+#sessions in train/test: 30011/7502
+#users in train/test: 11934/4288
+#items in train/test: 9237/5730
+#interactions in train/test: 82016/19606
+split 5
+#sessions in train/test: 30011/7502
+#users in train/test: 11934/4301
+#items in train/test: 9237/5699
+#interactions in train/test: 82020/19602
+data douban
+split 1
+#sessions in train/test: 597424/149356
+#users in train/test: 47603/31485
+#items in train/test: 21605/18672
+#interactions in train/test: 2163049/525265
+split 2
+#sessions in train/test: 597424/149356
+#users in train/test: 47603/31488
+#items in train/test: 21605/18719
+#interactions in train/test: 2165635/522679
+split 3
+#sessions in train/test: 597424/149356
+#users in train/test: 47603/31491
+#items in train/test: 21605/18765
+#interactions in train/test: 2164256/524058
+split 4
+#sessions in train/test: 597424/149356
+#users in train/test: 47603/31397
+#items in train/test: 21605/18741
+#interactions in train/test: 2165070/523244
+split 5
+#sessions in train/test: 597424/149356
+#users in train/test: 47603/31542
+#items in train/test: 21605/18775
+#interactions in train/test: 2165385/522929
+data reddit
+split 1
+#sessions in train/test: 897720/224430
+#users in train/test: 19878/17038
+#items in train/test: 13742/11369
+#interactions in train/test: 2300824/573847
+split 2
+#sessions in train/test: 897720/224430
+#users in train/test: 19878/17069
+#items in train/test: 13742/11420
+#interactions in train/test: 2301290/573381
+split 3
+#sessions in train/test: 897720/224430
+#users in train/test: 19878/17074
+#items in train/test: 13742/11372
+#interactions in train/test: 2300774/573897
+split 4
+#sessions in train/test: 897720/224430
+#users in train/test: 19878/17030
+#items in train/test: 13742/11357
+#interactions in train/test: 2301194/573477
+split 5
+#sessions in train/test: 897720/224430
+#users in train/test: 19878/17066
+#items in train/test: 13742/11335
+#interactions in train/test: 2301371/573300
+data: ciao
+data: lastfm
+data: gowalla
+data: epinions
+data: douban
+data: reddit
+>>fmt1
+ciao
+lastfm
+gowalla
+epinions
+douban
+reddit
+>>fmt2
+processing ciao
+train
+241
+test
+56
+train
+241
+test
+59
+train
+241
+test
+62
+train
+241
+test
+60
+train
+241
+test
+58
+processing lastfm
+train
+1101
+test
+517
+train
+1101
+test
+522
+train
+1101
+test
+503
+train
+1101
+test
+532
+train
+1101
+test
+506
+processing gowalla
+train
+58686
+test
+29955
+train
+58686
+test
+29902
+train
+58686
+test
+29931
+train
+58686
+test
+29921
+train
+58686
+test
+30055
+processing epinions
+train
+11934
+test
+4239
+train
+11934
+test
+4280
+train
+11934
+test
+4248
+train
+11934
+test
+4288
+train
+11934
+test
+4301
+processing douban
+train
+47603
+test
+31485
+train
+47603
+test
+31488
+train
+47603
+test
+31491
+train
+47603
+test
+31397
+train
+47603
+test
+31542
+processing reddit
+train
+19878
+test
+17038
+train
+19878
+test
+17069
+train
+19878
+test
+17074
+train
+19878
+test
+17030
+train
+19878
+test
+17066
+>>fmt3
+processing ciao...
+train
+test
+train
+test
+train
+test
+train
+test
+train
+test
+processing lastfm...
+train
+test
+train
+test
+train
+test
+train
+test
+train
+test
+processing gowalla...
+train
+test
+train
+test
+train
+test
+train
+test
+train
+test
+processing epinions...
+train
+test
+train
+test
+train
+test
+train
+test
+train
+test
+processing douban...
+train
+test
+train
+test
+train
+test
+train
+test
+train
+test
+processing reddit...
+train
+test
+train
+test
+train
+test
+train
+test
+train
+test
+>>fmt5
+processing ciao...
+train
+test
+train
+test
+train
+test
+train
+test
+train
+test
+processing lastfm...
+train
+test
+train
+test
+train
+test
+train
+test
+train
+test
+processing gowalla...
+train
+test
+train
+test
+train
+test
+train
+test
+train
+test
+processing epinions...
+train
+test
+train
+test
+train
+test
+train
+test
+train
+test
+processing douban...
+train
+test
+train
+test
+train
+test
+train
+test
+train
+test
+processing reddit...
+train
+test
+train
+test
+train
+test
+train
+test
+train
+test
+>>fmt6
+ciao
+lastfm
+gowalla
+epinions
+douban
+reddit

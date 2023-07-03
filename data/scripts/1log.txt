@@ -1,0 +1,245 @@
+
+=>read data
+=>drop duplicate lines
+delicious
+ciao
+lastfm
+gowalla
+epinions
+douban
+reddit
+--------------------
+data: delicious
+Min date: 2003-11-20
+Max date: 2010-11-10
+#days 2546.56625
+#weeks 363.79517857142855
+#months 84.88554166666667
+--------------------
+data: ciao
+Min date: 2000-6-1
+Max date: 2011-4-12
+#days 3967.0
+#weeks 566.7142857142857
+#months 132.23333333333332
+--------------------
+data: lastfm
+Min date: 2005-8-1
+Max date: 2011-5-9
+#days 2107.5728819444444
+#weeks 301.08184027777776
+#months 70.25242939814815
+--------------------
+data: gowalla
+Min date: 2009-2-4
+Max date: 2010-10-23
+#days 626.0031018518519
+#weeks 89.42901455026455
+#months 20.866770061728396
+--------------------
+data: epinions
+Min date: 1999-7-5
+Max date: 2011-5-9
+#days 4326.0
+#weeks 618.0
+#months 144.2
+--------------------
+data: douban
+Min date: 2005-6-12
+Max date: 2017-3-18
+#days 4297.0
+#weeks 613.8571428571429
+#months 143.23333333333332
+--------------------
+data: reddit
+Min date: 2006-7-11
+Max date: 2016-12-31
+#days 3826.5080555555555
+#weeks 546.6440079365079
+#months 127.55026851851852
+=>remove users and items occured less 10 times
+--------------------
+delicious
+Before: 437350
+After:  357499
+--------------------
+ciao
+Before: 29741
+After:  4150
+--------------------
+lastfm
+Before: 77838
+After:  59189
+--------------------
+gowalla
+Before: 6441229
+After:  3464704
+--------------------
+epinions
+Before: 679249
+After:  264373
+--------------------
+douban
+Before: 6451963
+After:  6237094
+--------------------
+reddit
+Before: 13965044
+After:  13902667
+=>generate session id
+--------------------
+delicious
+--------------------
+ciao
+--------------------
+lastfm
+--------------------
+gowalla
+--------------------
+epinions
+--------------------
+douban
+--------------------
+reddit
+=>remove sessions with length less than 10 and larger than 20
+--------------------
+delicious
+Before: 308612
+After: 249919
+--------------------
+ciao
+Before: 4150
+After: 1128
+--------------------
+lastfm
+Before: 59137
+After: 38367
+--------------------
+gowalla
+Before: 3365609
+After: 1799355
+--------------------
+epinions
+Before: 264373
+After: 101622
+--------------------
+douban
+Before: 6237094
+After: 2688314
+--------------------
+reddit
+Before: 7685539
+After: 2874671
+--------------------
+delicious
+#users:   1752
+#items:   5047
+#interactions:   249919
+#sess:    45772
+sparsity:  0.028264
+--------------------
+ciao
+#users:   241
+#items:   213
+#interactions:   1128
+#sess:    439
+sparsity:  0.021974
+--------------------
+lastfm
+#users:   1101
+#items:   711
+#interactions:   38367
+#sess:    5928
+sparsity:  0.049012
+--------------------
+gowalla
+#users:   58686
+#items:   125688
+#interactions:   1799355
+#sess:    592203
+sparsity:  0.000244
+--------------------
+epinions
+#users:   11934
+#items:   9237
+#interactions:   101622
+#sess:    37513
+sparsity:  0.000922
+--------------------
+douban
+#users:   47603
+#items:   21605
+#interactions:   2688314
+#sess:    746780
+sparsity:  0.002614
+--------------------
+reddit
+#users:   19878
+#items:   13742
+#interactions:   2874671
+#sess:    1122150
+sparsity:  0.010524
+--------------------
+delicious
+avg size/session: 5.46
+med size/session: 4.00
+avg items/session: 5.46
+avg items/user: 80.44
+avg sess/user: 26.13
+avg users/item: 27.92
+avg sess/item: 49.52
+--------------------
+ciao
+avg size/session: 2.57
+med size/session: 2.00
+avg items/session: 2.57
+avg items/user: 4.64
+avg sess/user: 1.82
+avg users/item: 5.25
+avg sess/item: 5.30
+--------------------
+lastfm
+avg size/session: 6.47
+med size/session: 5.00
+avg items/session: 6.47
+avg items/user: 15.75
+avg sess/user: 5.38
+avg users/item: 24.38
+avg sess/item: 53.96
+--------------------
+gowalla
+avg size/session: 3.04
+med size/session: 2.00
+avg items/session: 3.04
+avg items/user: 17.63
+avg sess/user: 10.09
+avg users/item: 8.23
+avg sess/item: 14.32
+--------------------
+epinions
+avg size/session: 2.71
+med size/session: 2.00
+avg items/session: 2.71
+avg items/user: 8.47
+avg sess/user: 3.14
+avg users/item: 10.94
+avg sess/item: 11.00
+--------------------
+douban
+avg size/session: 3.60
+med size/session: 2.00
+avg items/session: 3.60
+avg items/user: 56.47
+avg sess/user: 15.69
+avg users/item: 124.43
+avg sess/item: 124.43
+--------------------
+reddit
+avg size/session: 2.56
+med size/session: 2.00
+avg items/session: 2.56
+avg items/user: 29.78
+avg sess/user: 56.45
+avg users/item: 43.08
+avg sess/item: 209.19
+=>save all data to pickle file session_data.pkl

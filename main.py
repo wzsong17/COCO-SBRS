@@ -265,7 +265,7 @@ def mask_no_recent(user_ids, sess_item, rcnt_item, all_item):
 
 
 class Tester:
-    def __init__(self, session_length=4, k_list=[5, 10, 20]):
+    def __init__(self, session_length=3, k_list=[5, 10, 20]):
         self.k_list = k_list
         self.session_length = session_length
         self.n_decimals = 4
